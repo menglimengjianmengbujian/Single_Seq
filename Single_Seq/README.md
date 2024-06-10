@@ -8,10 +8,10 @@ prepare.ipynb的prepare文件步骤更加详细
     │───valid           
     │───test          
    
-# 三 要训练就运行train_fusion(concat).py
+# 三 要训练就运行train.py
     修改好argparse中的参数
     在models文件夹下，有多个模型可以选择
-# 四 要测试就运行test(concat).py
+# 四 要测试就运行test.py
     修改好保存的模型路径和测试集的路径 
 # 五 要画Grad_CAM图就运行Grad_CAM.py
     修改好文件里的路径，就可以画出每张图片的原图和Grad_CAM图了
